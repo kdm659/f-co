@@ -1,0 +1,13 @@
+************** Exception Text **************
+System.IO.FileNotFoundException: Could not load file or assembly 'netstandard, Version=2.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The system cannot find the file specified.
+File name: 'netstandard, Version=2.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+   at AutoFco.FrmMain..ctor()
+   at AutoFco.CheckVersion.AutoUpdaterOnCheckForUpdateEvent(UpdateInfoEventArgs args)
+   at AutoUpdaterDotNET.AutoUpdater.StartUpdate(Object result)
+   at AutoUpdaterDotNET.AutoUpdater.<>c.<Start>b__48_1(Object _, RunWorkerCompletedEventArgs args)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+
